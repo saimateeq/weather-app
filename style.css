@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:  url(./360_F_428628013_C8oTIJjC22Zc3JawcaXnpmn4BvEm7ji9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+#main-heading{
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;
+    font-size: 40px;
+}
+#city-name{
+    color: white;
+    font-size: 50px;
+}
+#userinput{
+    width: 450px;
+    height: 30px;
+    
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    background-color:black;
+    color: aliceblue;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards nav{
+    background-color: white;
+    width: 150px;
+}
+.cards nav i{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.cards nav p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#temp{
+    color: white;
+    font-size: 40px;
+}
